@@ -1,0 +1,64 @@
+baseurl = "https://cbuilder.tech" 
+
+title = "Cloud Builder" 
+
+theme = "hugo-coder" 
+
+languagecode = "zh" 
+defaultContentLanguage = "zh"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+    avatarurl = "images/avatar.png" 
+    #footercontent = "Keep it simple and stupid." 
+
+    hideCredits = false
+    hideCopyright = false
+
+    rtl = false
+
+    # Custom CSS
+    custom_css = []
+    author = "林俊" 
+    info = "解决方案架构师, 开发者, 云爱好者" 
+    description = "林俊的个人网站" 
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/linjungz/" 
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 4
+    url = "https://www.linkedin.com/in/randylinjun/" 
+
+
+[[menu.main]]
+
+    name = "关于我"
+    weight = 1.0
+    url = "/about/"
+
+ [[menu.main]]  
+    name = "小玩意"
+    weight = 3.0
+    url = "/demos/"
+
+[[menu.main]]
+    name = "烂笔头"
+    weight = 2.0
+    url = "/posts/"        
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/luizdepra/hugo-coder"

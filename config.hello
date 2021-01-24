@@ -1,0 +1,71 @@
+baseurl = "https://cbuilder.tech" 
+
+title = "CloudBuilder" 
+
+theme = "hello-friend-ng" 
+
+languagecode = "zh" 
+defaultContentLanguage = "zh"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+
+
+[params]
+    homeSubtitle = "解决方案架构师，开发者，云爱好者"
+    author = "林俊"
+    defaultTheme = "dark"
+
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/linjungz"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/randylinjun/"
+
+
+ 
+
+
+
+[languages]
+
+    [languages.zh]
+        languagename = "简体中文" # The language name to be displayed in the selector.
+        title = "林俊"
+
+        # You can configure the theme parameter for each language.
+        [languages.zh.params]
+        author = "" 
+        homeSubtitle = "解决方案架构师, 开发者, 云爱好者" 
+        description = "林俊的个人网站" 
+
+
+
+
+        [languages.zh.menu] # It is possible to change the menu too.
+
+        [[languages.zh.menu.main]]
+        name = "关于"
+        weight = 1.0
+        url = "/about/"
+
+        [[languages.zh.menu.main]]
+        name = "演示"
+        weight = 3.0
+        url = "/demos"
+
+        [[languages.zh.menu.main]]
+        name = "随笔"
+        weight = 2.0
+        url = "/posts/"
+
