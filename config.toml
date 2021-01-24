@@ -59,6 +59,3 @@ pygmentscodefencesguesssyntax = true
     url = "/posts/"        
 
 
-[module]
-  [[module.imports]]
-    path = "github.com/luizdepra/hugo-coder"
