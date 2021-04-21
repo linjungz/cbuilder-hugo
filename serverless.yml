@@ -1,0 +1,22 @@
+component: website
+name: websitedemo
+org: test
+app: website-demo-79601f07
+stage: dev
+
+inputs:
+  src:
+    src: ./public
+    hook: npm run build
+    index: index.html
+    error: index.html
+  region: ap-guangzhou
+  bucketName: linjungz-website
+  protocol: https
+  hosts:
+    - host: www.cbuilder.tech
+      https:
+        switch: on
+        http2: off
+        certInfo:
+          certId: 'm2mpH1g4'
