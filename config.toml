@@ -1,4 +1,4 @@
-baseurl = "https://cbuilder.tech" 
+baseurl = "https://www.cbuilder.tech" 
 
 title = "Cloud Builder" 
 
@@ -32,12 +32,10 @@ pygmentscodefencesguesssyntax = true
 
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
     weight = 1
     url = "https://github.com/linjungz/" 
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
     weight = 4
     url = "https://www.linkedin.com/in/randylinjun/" 
 
